@@ -843,8 +843,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*slider end*/
 
 .__dbslimg{
-  width: 194px;
-  height: 194px;
+  /*width: 194px;*/
+  height: 134px;
   border-radius:10px;
 }
 
