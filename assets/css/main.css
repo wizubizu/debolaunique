@@ -875,15 +875,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .__locateline {
   width: 1px;
-  height: 70%;
+  height: 85%;
   background: #CD9A03;
   z-index: 0;
   position: absolute;
   left: 24px;
-}
-
-.__prodiv{
-  margin-top: 5rem;
 }
 
 .__procimg{
