@@ -2,14 +2,6 @@
 	Basic Setup css
 ==================================================================*/
 
--webkit-user-select: none;
--khtml-user-select: none;
--moz-user-select: none;
--ms-user-select: none;
--o-user-select: none;
-user-select: none;
-
-
 html {
     font-size: 100%;
     min-height: 100%;
@@ -249,8 +241,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-top:2%;
 }
 
+.__spacet3p{
+  margin-top:3%;
+}
+
+.__spacet4p{
+  margin-top:4%;
+}
+
 .__spacet5p{
   margin-top:5%;
+}
+
+.__spacet6p{
+  margin-top:6%;
 }
 
 .__spacet7p{
