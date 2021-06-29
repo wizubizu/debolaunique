@@ -251,7 +251,7 @@
   }
 
   .__abhavis {
-    font-size: 40px;
+    font-size: 30px;
     margin-top: 2rem;
   }
 
@@ -266,6 +266,14 @@
 
   .__dbslimg{
     height: 160px;
+  }
+
+  .__bolprs {
+    font-size: 23px;
+  }
+
+  .__bolprs1 {
+    font-size: 20px;
   }
 
 

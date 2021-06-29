@@ -907,7 +907,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 /*brind css*/
 .__bolprs{
   font-size: 30px;
-  line-height: 162.2%;
+  line-height: 147.2%;
   color: #3C5A72;
   font-family: BRFirmaBold;
   margin-top: 22px;
@@ -931,7 +931,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .__locateline {
   width: 1px;
-  height: 85%;
+  height: 99%;
   background: #CD9A03;
   z-index: 0;
   position: absolute;
