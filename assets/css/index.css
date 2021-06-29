@@ -30,11 +30,6 @@
 
 
 @media only screen and (max-width: 1220px){
-  
-  .__dbcont {
-    width: 500px;
-    height: 298px;
-  }
 
 
 }
@@ -50,11 +45,7 @@
   .__colat {
     font-size: 56px;
   }
-   
-  .__dbcont {
-    width: 500px;
-    height: 298px;
-  }
+  
 
 
 }
@@ -73,12 +64,6 @@
 
   .__colat {
     font-size: 55px;
-  }
-
-  
-  .__dbcont {
-    width: 452px;
-    height: 298px;
   }
 
   .__searvp{
@@ -116,14 +101,17 @@
     margin-top: 0;
   }
 
-  .__dbcont {
-    width: 343px;
-    height: 298px;
+  .__fotp {
+    font-size: 25px;
   }
 
   .__colat {
-    font-size: 55px;
+    font-size: 45px;
     padding-top: 7rem;
+  }
+
+  .__colat1 {
+    font-size: 22px;
   }
 
   .__searvp2 {
@@ -209,11 +197,6 @@
     font-size: 13px;
   }
 
-  .__dbcont {
-    width: 291px;
-    height: 335px;
-  }
-
   .__colat {
     font-size: 25px;
     padding-top: 3rem;
@@ -228,11 +211,11 @@
   }
 
   .__fotp {
-    font-size: 35px;
+    font-size: 25px;
   }
 
   .__fotp1 {
-    font-size: 15px;
+    font-size: 18px;
   }
 
   .__caption, .__dbser {

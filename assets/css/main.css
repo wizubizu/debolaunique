@@ -624,7 +624,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .__fotp{
-  font-size: 40px;
+  font-size: 30px;
   line-height: 117.7%;
   color: #ffffff;
   font-family: BRFirmaBold;
@@ -632,7 +632,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 .__fotp1{
-  font-size: 16px;
+  font-size: 25px;
   line-height: 162.2%;
   color: #ffffff;
   margin-top: 22px;
@@ -710,8 +710,8 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 .__dbcont{
-  width: 600px;
-  height: 450px;
+  width: 300px;
+  height: 245px;
 }
 
 /*gallery*/
@@ -1004,6 +1004,7 @@ font-size: 18px;
   font-weight: 900;
   letter-spacing: 2.7px;
   color: #CD9A03;
+  font-family: BRFirmaBold;
 }
 
 .__fotr{
