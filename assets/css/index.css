@@ -126,6 +126,14 @@
     padding: 3rem 0;
   }
 
+  .__contp {
+    font-size: 30px;
+  }
+
+  .__contdiv {
+    margin-top: 4rem;
+  }
+
   
 
 
@@ -250,6 +258,10 @@
   .__fotopimg {
     padding: 60px 0;
     margin-top: 2rem;
+  }
+
+  .__contp {
+    font-size: 25px;
   }
 
 
