@@ -68,14 +68,26 @@ $(function() {
 		animSpeed	: 1000,
 		interval	: 1000,
 		step		: 1,
-		w320		: {
-			rows	: 3,
-			columns	: 4
-		},
-		w240		: {
-			rows	: 3,
-			columns	: 4
-		}
+		w1024 : {
+            rows : 2,
+            columns : 6
+        },
+        w768 : {
+            rows : 3,
+            columns : 4
+        },
+        w480 : {
+            rows : 3,
+            columns : 3
+        },
+        w320 : {
+            rows : 4,
+            columns : 3
+        },
+        w240 : {
+            rows : 4,
+            columns : 2
+        },
 	} );
 
 });
