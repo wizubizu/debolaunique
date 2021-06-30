@@ -134,6 +134,22 @@
     margin-top: 4rem;
   }
 
+  .__price-div {
+    margin-top: -3rem;
+  }
+
+  .__price-fee-card, .__price-fee-card1 {
+    padding: 1rem;
+  }
+
+  .__price-fee1 {
+    font-size: 25px;
+  }
+
+  .__price-img {
+    font-size: 50px;
+  }
+
   
 
 
@@ -274,6 +290,14 @@
 
   .__bolprs1 {
     font-size: 20px;
+  }
+
+  .__price-div {
+    margin-top: -3rem;
+  }
+
+  .__price-fee-card, .__price-fee-card1 {
+    padding: 1rem;
   }
 
 
