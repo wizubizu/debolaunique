@@ -728,7 +728,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .__contdiv{
-  margin-top: 6rem;
+  margin-top: 5rem;
+}
+
+.__contget{
+  font-size: 30px;
+    line-height: 120.2%;
+    color: #3C5A72;
+    font-family: BRFirmaBold;
 }
 
 

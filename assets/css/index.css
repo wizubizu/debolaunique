@@ -114,6 +114,10 @@
 
 @media only screen and (max-width: 800px){
 
+  .__navlink {
+    padding: 10px 8px !important;
+  }
+
 	.__carousel-innert>.item> .__img {
     height: 427px;
   }
@@ -349,6 +353,14 @@
 
   .__locateline-hr {
     display: none;
+  }
+
+  .__contdiv {
+    margin-top: 1rem;
+  }
+
+  .__formbtn {
+    margin-bottom: 15px;
   }
 
 
