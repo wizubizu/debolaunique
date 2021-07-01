@@ -45,6 +45,14 @@
   .__colat {
     font-size: 56px;
   }
+
+  .__prefct {
+    width: 180px;
+  }
+ 
+  .__locateline-hr {
+    width: 77.5%;
+  }
   
 
 
@@ -70,6 +78,14 @@
     font-size: 30px;
   }
 
+  .__prefct {
+    width: 180px;
+  }
+ 
+  .__locateline-hr {
+    width: 77.5%;
+  }
+
   
 
 }
@@ -81,8 +97,14 @@
 
 
 @media only screen and (max-width: 992px){
- 
 
+  .__prefct {
+    width: 180px;
+  }
+ 
+  .__locateline-hr {
+    width: 77.5%;
+  }
 }
 
 
@@ -148,6 +170,14 @@
 
   .__price-img {
     font-size: 50px;
+  }
+
+  .__abhavis {
+    font-size: 40px;
+  }
+
+  .__locateline-hr {
+    width: 77.5%;
   }
 
   
@@ -298,6 +328,27 @@
 
   .__price-fee-card, .__price-fee-card1 {
     padding: 1rem;
+  }
+
+  .__prefct {
+    width: 142px;
+  }
+
+  .__prin-anim {
+    height: 112px;
+    width: 112px;
+  }
+
+  .__prin-animimg {
+    width: 54px;
+  }
+
+  .__prin-animp {
+    font-size: 16px;
+  }
+
+  .__locateline-hr {
+    display: none;
   }
 
 

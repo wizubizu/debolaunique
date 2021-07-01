@@ -938,6 +938,16 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   left: 24px;
 }
 
+.__locateline-hr {
+  width: 79.5%;
+  height: 1px;
+  background: #CD9A03;
+  z-index: 0;
+  position: absolute;
+  left: 7.3rem;
+    top: 5rem;
+}
+
 .__procimg{
   width: 50px;
   background: #ffffff;
@@ -961,6 +971,99 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 /*brind css end*/
+
+.__pritflex{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.__prefct{
+  width: 196px;
+}
+
+.__prin-anim {
+    border-radius: 50%;
+    height: 130px;
+    position: relative;
+    width: 130px;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+
+.__prin-anim:hover {
+    box-shadow: 0 0 0 10px #cd9a03;
+    color: #fff;
+}
+
+.__prin-anim::after {
+    border-radius: 50%;
+    box-sizing: content-box;
+    content: "";
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0 0 0 3px #cd9a03;
+    left: 0;
+    padding: 0;
+    top: 0;
+    transition: transform .2s ease 0s,opacity .2s ease 0s;
+}
+
+.__prin-anim:hover::after {
+    opacity: .5;
+    transform: scale(.85);
+}
+
+.__prin-animimg{
+  width: 70px;
+  margin-top: 28px;
+}
+
+.__prin-animp{
+  font-size: 20px;
+  color: #3C5A72;
+  font-family: BRFirmaBold;
+  line-height: 120%;
+  margin-top: 25px;
+}
+
+.__secudiv{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.__secudivin{
+  background: #ffffff;
+  border: 2px solid #cd9a03;
+  border-radius: 50%;
+  height: 130px;
+  width: 130px;
+  margin: 0 auto;
+}
+
+.__secudivimg{
+  width: 70px;
+  transition: all 0.4s ease-in;
+  margin-top: 28px;
+}
+
+.__secudivin:hover .__secudivimg{
+  width: 80px;
+  margin-top: 24px;
+}
+
+.__secup{
+  font-size: 20px;
+  color: #3C5A72;
+  font-family: BRFirmaBold;
+  line-height: 120%;
+  margin-top: 20px;
+}
+
+
+
+
 
 .__bolstp{
   background: linear-gradient(100deg, rgba(0, 0, 0, 0.40) 50%, rgba(0, 0, 0, 0.40) 50%), url(../img/slide5.jpeg);
