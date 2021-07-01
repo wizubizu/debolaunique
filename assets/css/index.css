@@ -53,6 +53,11 @@
   .__locateline-hr {
     width: 77.5%;
   }
+
+  .__price-fee-card, .__price-fee-card1 {
+    padding: 1rem;
+  }
+
   
 
 
@@ -86,6 +91,10 @@
     width: 77.5%;
   }
 
+  .__price-fee-card, .__price-fee-card1 {
+    padding: 1rem;
+  }
+
   
 
 }
@@ -105,6 +114,13 @@
   .__locateline-hr {
     width: 77.5%;
   }
+
+  .__price-fee-card, .__price-fee-card1 {
+    padding: 1rem;
+  }
+
+
+
 }
 
 
@@ -118,6 +134,68 @@
   .__navlink {
     padding: 10px 8px !important;
   }
+
+  .__caption {
+    font-size: 40px;
+    margin-top: 13px;
+  }
+
+  .__dbser1 {
+    font-size: 27px;
+  }
+
+  .__searvp {
+    font-size: 26px;
+    margin-top: 1rem;
+  }
+
+  .__searvp1 {
+    font-size: 15px;
+  }
+
+  .__procimg {
+    width: 40px;
+    margin-top: 0;
+  }
+
+  .__pro-anim {
+    height: 60px;
+    width: 60px;
+    margin-left: -10px;
+  }
+
+  .__abhavis {
+    font-size: 40px;
+  }
+
+  .__pritflex {
+    justify-content: center;
+  }
+
+  .__contp {
+    font-size: 30px;
+  }
+
+  .__price-fee-card, .__price-fee-card1 {
+    padding: 1rem;
+  }
+
+  .__price-fee1 {
+    font-size: 28px;
+    line-height: 20px;
+  }
+
+  .__price-brd {
+    font-size: 17px;
+  }
+
+  .__price-entail p {
+    font-size: 14px;
+  }
+
+
+
+
 }
 
 
@@ -183,6 +261,15 @@
 
   .__price-fee1 {
     font-size: 25px;
+    line-height: 17px;
+  }
+
+  .__price-entail p {
+    font-size: 13px;
+  }
+
+  .__price-brd {
+    font-size: 18px;
   }
 
   .__price-img {
@@ -293,8 +380,8 @@
   }
 
   .__colat {
-    font-size: 25px;
-    padding-top: 3rem;
+    font-size: 20px;
+    padding-top: 5rem;
   }
 
   .__colat1 {
@@ -302,7 +389,7 @@
   }
 
   .__crbtn {
-    font-size: 15px;
+    font-size: 9px;
     margin-top: 1rem;
   }
 
@@ -427,6 +514,11 @@
   .__procimg {
     width: 28px;
     margin-top: 0;
+  }
+
+  .__price-fee1 {
+    font-size: 36px;
+    line-height: 46px;
   }
 
 

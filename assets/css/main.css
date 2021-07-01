@@ -714,7 +714,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .__abvis{
-  font-size: 55px;
+  font-size: 40px;
   line-height: 116.8%;
   color: #3C5A72;
   font-family: BRFirmaBold;
@@ -1248,7 +1248,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 
 .__price-fee-card {
-    padding: 2rem;
+    padding: 2rem 2rem 1rem;
 }
 
 .__price-fee-card1 {
@@ -1273,7 +1273,14 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .__price-img {
-  font-size: 60px;
+  width: 60%;
+}
+
+.__price-brd {
+  font-size: 20px;
+  line-height: 28px;
+  color: #3C5A72;
+  font-family: 'BRFirmaMedium';
 }
 
 .__price-entail{
