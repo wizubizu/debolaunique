@@ -63,21 +63,21 @@ $(function() {
 			
 	$( '#ri-grid' ).gridrotator( {
 		rows		: 2,
-		columns		: 6,
+		columns		: 4,
 		animType	: 'fadeInOut',
 		animSpeed	: 1000,
 		interval	: 1000,
 		step		: 1,
 		w1024 : {
             rows : 2,
-            columns : 6
-        },
-        w768 : {
-            rows : 3,
             columns : 4
         },
+        w768 : {
+            rows : 2,
+            columns : 3
+        },
         w480 : {
-            rows : 3,
+            rows : 2,
             columns : 3
         },
         w320 : {
