@@ -360,6 +360,17 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background-color: #CD9A03;
 }
 
+.__navlinkbtn{
+  border: 1px solid #CD9A03;
+  background: #CD9A03 ! important;
+  color: #ffffff !important;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 1.56 !important;
+  padding: 5px 8px !important;
+  margin-top: 5px;
+}
+
 
 .__logoimg {
   width: 44px;
@@ -1148,7 +1159,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-top: 28px;
 }
 
-.__secudivin:hover .__secudivimg{
+.__secudiv:hover .__secudivimg{
   width: 80px;
   margin-top: 24px;
 }
@@ -1321,6 +1332,129 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   letter-spacing: 1.8px;
   border-bottom: 1px solid #CD9A03;
   padding-bottom: 5px;
+}
+
+
+
+/*fileupload*/
+.docErr {
+    position: absolute;
+    right: auto;
+    left: 10px;
+    top: -56px;
+    padding: 10px;
+    font-size: 15px;
+    background-color: #fff;
+    color: red;
+    box-shadow: 0px 0px 7px 2px rgb(0 0 0 / 20%);
+    display: none;
+}
+
+.__filcove {
+  border: 1px solid #3C5A72;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 1rem;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+}
+
+.__filcove img {
+    width: 30px;
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+/*fileupload end*/
+
+
+/*display radio btn*/
+.none {
+    display:none;
+}
+/*display radio btn end*/
+
+
+/* The radio */
+.radio {
+ 
+     display: block;
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 7px;
+    margin-top: 0 !important;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkround {
+
+    position: absolute;
+    top: 6px;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #fff ;
+    border-color:#3C5A72;
+    border-style:solid;
+    border-width:1px;
+     border-radius: 50%;
+}
+
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkround {
+    background-color: #fff;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkround:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkround:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkround:after {
+     left: 2px;
+    top: 2px;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background:#CD9A03;
+    
+ 
 }
 
 

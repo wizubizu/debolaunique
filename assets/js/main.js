@@ -118,3 +118,13 @@ $(document).ready(function(){
         }
     });
 });
+
+
+
+// show and hide div using radio
+    $(':radio').change(function (event) {
+        var id = $(this).data('id');
+        $('#' + id).addClass('none').siblings().removeClass('none');
+    });
+
+   // end
