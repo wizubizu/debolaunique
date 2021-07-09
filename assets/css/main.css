@@ -1322,6 +1322,12 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   color: #3C5A72;
 }
 
+.__notp{
+  font-size: 15px;
+  line-height: 24px;
+  color: #3C5A72;
+}
+
 .__price-link{
   text-align: center;
   margin-top: 20px;
