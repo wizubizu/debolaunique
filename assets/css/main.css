@@ -1466,7 +1466,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 .__fcvip{
   font-size: 28px;
     line-height: 117.7%;
-    color: #3C5A72;
+    color: #CD9A03;
     font-family: BRFirmaBold;
      margin-top: 3rem;
 }
@@ -1489,7 +1489,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .active, .__accordion:hover {
     background-color: transparent !important;
-    color: #CD9A03;
+    color:#3C5A72 ;
 }
 
 .__accordion:after {
