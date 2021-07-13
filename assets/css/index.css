@@ -521,6 +521,24 @@
     line-height: 46px;
   }
 
+  .__fcvip {
+    font-size: 20px;
+  }
+
+  #accordion .panel-title a:before, #accordion .panel-title a.collapsed:before {
+    font-size: 12px;
+    top: 8px;
+    right: 1px;
+  }
+
+  #accordion .panel-title a.collapsed {
+    font-size: 15px;
+  }
+
+  #accordion .panel-title a:after {
+    display: none;
+  }
+
 
 
 
