@@ -31,6 +31,9 @@
 
 @media only screen and (max-width: 1220px){
 
+  .__fotopimg {
+    margin-top: -33.6%;
+  }
 
 }
 
@@ -56,6 +59,14 @@
 
   .__price-fee-card, .__price-fee-card1 {
     padding: 1rem;
+  }
+
+  .__dbimg {
+    width: 320px;
+  }
+
+  .__fotopimg {
+    margin-top: -33.6%;
   }
 
   
@@ -95,6 +106,14 @@
     padding: 1rem;
   }
 
+  .__dbimg {
+    width: 320px;
+  }
+
+  .__fotopimg {
+    margin-top: -39.6%;
+  }
+
   
 
 }
@@ -117,6 +136,10 @@
 
   .__price-fee-card, .__price-fee-card1 {
     padding: 1rem;
+  }
+
+  .__fotopimg {
+    margin-top: -40.6%;
   }
 
 
@@ -192,6 +215,15 @@
   .__price-entail p {
     font-size: 14px;
   }
+
+  .__dbimg {
+    width: 286px;
+  }
+
+  .__fotopimg {
+    margin-top: -40.6%;
+  }
+
 
 
 
@@ -298,6 +330,14 @@
   .__caption {
     font-size: 33px;
     margin-top: 20px;
+  }
+
+  .__dbimg {
+    width: 284px;
+  }
+
+  .__fotopimg {
+    margin-top: -52.4%;
   }
 
   
@@ -418,7 +458,7 @@
   }
 
   .__abvis {
-    font-size: 40px;
+    font-size: 30px;
   }
 
   .__abalcap {
@@ -435,8 +475,7 @@
   }
 
   .__fotopimg {
-    padding: 60px 0;
-    margin-top: 2rem;
+    margin-top: -126.3%;
   }
 
   .__contp {
@@ -537,6 +576,12 @@
 
   #accordion .panel-title a:after {
     display: none;
+  }
+
+  .__dbimg {
+    float: unset;
+    width: 100%;
+    margin-left: 0;
   }
 
 

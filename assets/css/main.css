@@ -532,11 +532,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .__dbimg{
-  background-position: center !important;
+  float: right;
+    width: 350px;
+    margin-left: 20px;
+    border-radius: 10px;
+  /*background-position: center !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   border-radius: 10px;
-  height: 370px;
+  height: 370px;*/
 }
 
 .__caption{
@@ -544,7 +548,11 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   line-height: 117.7%;
   color: #3C5A72;
   font-family: BRFirmaBold;
-  margin-top: 68px;
+  /*margin-top: 68px;*/
+}
+
+.__caption span {
+    color: #CD9A03;
 }
 
 .__caption1{
@@ -696,8 +704,28 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-top: 20px;
 }
 
+.__bgvideodi{
+    height: 400px;
+    margin-top: 8rem;
+}
 
-.__fotopimg{
+.__bgvideo{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    z-index: -100;
+}
+
+.__fotopimg {
+  position: relative;
+  margin-top: -28.3%;
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 93px;
+  height: inherit;
+}
+
+
+/*.__fotopimg{
   background: linear-gradient(100deg, rgba(0, 0, 0, 0.40) 50%, rgba(0, 0, 0, 0.40) 50%), url(../img/color-splash.png);
   background-position: center !important;
   background-repeat: no-repeat !important;
@@ -705,7 +733,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   background-attachment: fixed;
   padding: 90px 0;
   margin-top: 5rem;
-}
+}*/
 
 .__fotp{
   font-size: 30px;
