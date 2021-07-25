@@ -351,9 +351,12 @@
 
 @media only screen and (max-width: 767px){
 
+  
 
   
 }
+
+
 
 
 /*=================================================================
@@ -584,9 +587,12 @@
     margin-left: 0;
   }
 
-
-
+  .__navlink:hover .__hovef:before, .__navlink:hover .__hovef:after, .__navlink:hover:after{
+    display: none;
+  }
 
 
 }
+
+
 
