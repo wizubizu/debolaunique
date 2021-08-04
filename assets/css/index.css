@@ -69,6 +69,10 @@
     margin-top: -33.6%;
   }
 
+  #accordion .panel-title a.collapsed {
+    font-size: 13px;
+  }
+
   
 
 
@@ -112,6 +116,10 @@
 
   .__fotopimg {
     margin-top: -39.6%;
+  }
+
+  #accordion .panel-title a.collapsed {
+    font-size: 13px;
   }
 
   
@@ -474,7 +482,7 @@
   }
 
   .__procbtn {
-    font-size: 12px;
+    font-size: 10px;
   }
 
   .__fotopimg {
