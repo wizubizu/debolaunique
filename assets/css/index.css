@@ -121,6 +121,9 @@
   #accordion .panel-title a.collapsed {
     font-size: 13px;
   }
+  .__servdiv {
+    padding: 4rem 0;
+  }
 
   
 
@@ -230,6 +233,10 @@
 
   .__fotopimg {
     margin-top: -40.6%;
+  }
+
+  .__servdiv {
+    padding: 4rem 0;
   }
 
 
@@ -346,6 +353,10 @@
 
   .__fotopimg {
     margin-top: -52.4%;
+  }
+
+  .__servdiv {
+    padding: 4rem 0;
   }
 
   
@@ -597,6 +608,10 @@
 
   .__navlink:hover .__hovef:before, .__navlink:hover .__hovef:after, .__navlink:hover:after{
     display: none;
+  }
+
+  .__servdiv {
+   padding: 2rem 0;
   }
 
 

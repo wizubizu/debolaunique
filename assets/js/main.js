@@ -129,6 +129,15 @@ $(document).ready(function(){
 
    // end
 
+   // dropdown
+    $(document).ready(function(){
+        $('.dropdown-submenu a.test').on("click", function(e){
+            $(this).next('ul').toggle();
+            e.stopPropagation();
+            e.preventDefault();
+        });
+    });
+
 
 
 
@@ -148,4 +157,6 @@ for (i = 0; i < acc.length; i++) {
     });
 }
 // end
+
+
 

@@ -73,7 +73,7 @@
 							</ul>
 						</li>
 						
-						<li><a href="uploadfile.html" class="__navlinkbtn">Upload Files  </a></li>
+						<li><a href="uploadfile.html" class="__navlinkbtn">Upload Files</a></li>
 					</ul>
 				</div><!-- /.navbar-collapse -->
 			</div>
@@ -83,7 +83,7 @@
 	<section>
 		<div class="__allbg" style="background:linear-gradient(100deg, rgba(0, 0, 0, 0.40) 50%, rgba(0, 0, 0, 0.40) 50%), url(assets/img/contact.jpeg);">
 			<div class="container">
-				<p class="text-center __abalcap">Request A Quote</p>
+				<p class="text-center __abalcap">Art Upload</p>
 			</div>
 		</div>
 		
@@ -102,106 +102,31 @@
 				<div class="col-xl-1 col-lg-1 col-md-1"></div>
 				<div class="col-xl-5 col-lg-5 col-md-5 col-sm-6">
 					<div class="__contdiv">
-						<p class="__contget">Get A Quote</p>
+						<p class="__contget">Upload Your Files</p>
 						<form action="" method="POST" role="form">
 							<div class="form-group">
 								<input type="text" class="form-control __form-input" id="" placeholder="Full Name" required="">
 							</div>
 
-							<div class="row">
-								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-									<div class="form-group">
-										<input type="email" class="form-control __form-input" id="" placeholder="Your Email" required="">
-									</div>
-								</div>
-								<div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
-									<div class="form-group">
-										<input type="text" class="form-control __form-input" id="" placeholder="Your Phone No." required="">
-									</div>
-								</div>
+							<div class="form-group">
+								<input type="text" class="form-control __form-input" id="" placeholder="Company" required="">
 							</div>
 
 							<div class="form-group">
-								<input type="text" class="form-control __form-input" id="" placeholder="Your Company / Business Name" required="">
+								<input type="email" class="form-control __form-input" id="" placeholder="Your Email" required="">
 							</div>
 
 							<div class="form-group">
-								<!-- <label for="" style="color: #3C5A72;">I am intrested in:</label> -->
-								<select name="" id="input" class="form-control __form-input" required="required">
-									<option value="">What do you want to print?</option>
-									<option value="">Business Cards</option>
-									<option value="">Corporate Letterhead</option>
-									<option value="">Identity Cards</option>
-									<option value="">Brochures & Flyers</option>
-									<option value="">Stickers & Labels</option>
-									<option value="">IV & Greeting Cards</option>
-									<option value="">Notepads / Jotters</option>
-									<option value="">Hand Tags & Seal Lock Cord</option>
-									<option value="">Woven Labels (MOQ 500 pcs)</option>
-									<option value="">Shopping Bags (Paper / Nylon)</option>
-									<option value="">Promotional Items</option>
-									<option value="">Roll-up Banners</option>
-									<option value="">Others</option>
-								</select>
+								<textarea name="" id="input" class="form-control __form-input" rows="3" required="required"></textarea>
 							</div>
 
-							<div class="form-group">
-								<input type="number" class="form-control __form-input" id="" placeholder="Quentity of print jobs" required="">
-							</div>
+							<div class="docErr"></div><!--error-->
+	                        <div class="fileUpload __filcove">
+	                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
+	                            <span class="upl" id="upload">upload your design</span>
+	                            <input type="file" class="upload up" id="up" onchange="readURL(this);" />
+	                        </div>
 
-							<div class="form-group">
-								<textarea name="" id="input" class="form-control __form-input" rows="3" placeholder="Specification and any finishing note" required=""></textarea>
-							</div>
-
-							
-
-							<div class="form-group">
-								<label for="" style="color: #3C5A72;">Delivery Option</label>
-								<div style="display: flex;">
-									<label class="radio">
-	                    				<input type="radio" class="__met1" name='deliv' value='valuables' data-id="delis" />Pick Up&nbsp;
-	                        			<span class="checkround"></span>
-	                      			</label>&nbsp;&nbsp;
-
-	                      			<label class="radio" >
-	                				<input type="radio" class="__met1" name='deliv' value='valuables' data-id="deli" />&nbsp;Door Delivery
-	                				<span class="checkround"></span>
-	              					</label>
-								</div>
-								<div id="delis" class="none">
-		                        	<div class="form-group">
-										<textarea name="" id="input" class="form-control __form-input" rows="3" placeholder="NOTE: Additional fee is attached to your door deliver depending on your location" required=""></textarea>
-									</div>
-								</div>
-		                      	<div id="deli" class="none"></div>
-	                      	</div>
-
-
-	                      	<div class="form-group">
-								<label for="" style="color: #3C5A72;">Hire a graphic designer?</label>
-								<div style="display: flex;">
-									<label class="radio">
-	                    				<input type="radio" class="__met1" name='thing' value='valuable' data-id="school" />Yes&nbsp;
-	                        			<span class="checkround"></span>
-	                      			</label>&nbsp;&nbsp;
-
-	                      			<label class="radio" >
-		                				<input type="radio" name='thing' value='valuable' data-id="bank" />&nbsp;No
-		                				<span class="checkround"></span>
-	              					</label>
-								</div>
-								<div id="school" class="none">
-		                        	<div class="docErr"></div><!--error-->
-			                        <div class="fileUpload __filcove">
-			                            <img src="https://image.flaticon.com/icons/svg/136/136549.svg" class="icon">
-			                            <span class="upl" id="upload">upload your design</span>
-			                            <input type="file" class="upload up" id="up" onchange="readURL(this);" />
-			                        </div><!-- btn-orange -->
-								</div>
-		                      	<div id="bank" class="none"></div>
-	                      	</div>
-
-							
 
 							<button type="submit" class="btn __formbtn">Submit</button>
 						</form>

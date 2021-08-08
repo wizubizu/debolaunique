@@ -367,7 +367,7 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   font-size: 18px;
   border-radius: 5px;
   line-height: 1.56 !important;
-  padding: 5px 8px !important;
+  padding: 5px 16px !important;
   margin-top: 5px;
 }
 
@@ -440,6 +440,21 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
     background-color: #CD9A03 !important;
 }
 
+
+.effect-sparkle {
+    background-image: url(../img/sparkle.png);
+    animation: sparkle 60s linear infinite;
+}
+
+@keyframes sparkle{
+  0% {
+    background-position: 0px 0px, 0px 0px, 0px 0px;
+}
+
+  100% {
+      background-position: -500px -1000px, -400px -400px, 300px 300px;
+  }
+}
 
 
 
