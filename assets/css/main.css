@@ -1673,6 +1673,8 @@ footer
 .__foter{
   background-color: #3C5A72;
   padding: 5rem 0;
+  background-image: url(../img/sparkle.png);
+    animation: sparkle 60s linear infinite;
  }
 
 
@@ -1687,6 +1689,7 @@ font-size: 18px;
   letter-spacing: 2.7px;
   color: #CD9A03;
   font-family: BRFirmaBold;
+  margin-left: 20px;
 }
 
 .__fotr{
@@ -1696,6 +1699,42 @@ font-size: 18px;
   transition: all 0.4s ease-in;
   overflow-wrap: break-word;
 }
+
+.__fh:before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  width: 10px;
+  height: 10px;
+  display: block;
+  left: 13px;
+  animation: rotateIn 3s infinite;
+  -webkit-animation: rotateIn 3s infinite;
+  -moz-animation: rotateIn 3s infinite;
+  box-shadow: 3px 3px 0px 0px #CD9A03;
+  background-color: #fff;
+}
+
+@-webkit-keyframes rotateIn{
+  0%{
+    transform-origin:center;
+    -webkit-transform:rotate(-200deg);
+    transform:rotate(-200deg);
+    opacity:0
+  }
+
+  0%,to{
+    -webkit-transform-origin:center
+    }
+
+  to{
+    transform-origin:center;
+    -webkit-transform:none;
+    transform:none;opacity:1
+  }
+}
+ .rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}
+
 
 
 
