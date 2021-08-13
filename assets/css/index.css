@@ -69,8 +69,16 @@
     margin-top: -33.6%;
   }
 
-  #accordion .panel-title a.collapsed {
+  #accordion .panel-title a.collapsed, #accordion1 .panel-title a.collapsed {
     font-size: 13px;
+  }
+
+  .__abhavis {
+    font-size: 28px;
+  }
+
+  .__fh {
+    font-size: 14px;
   }
 
   
@@ -118,11 +126,15 @@
     margin-top: -39.6%;
   }
 
-  #accordion .panel-title a.collapsed {
+  #accordion .panel-title a.collapsed, #accordion1 .panel-title a.collapsed {
     font-size: 13px;
   }
   .__servdiv {
     padding: 4rem 0;
+  }
+
+  .__fh {
+    font-size: 14px;
   }
 
   
@@ -151,6 +163,10 @@
 
   .__fotopimg {
     margin-top: -40.6%;
+  }
+
+  .__abhavis {
+    font-size: 28px;
   }
 
 
@@ -198,15 +214,11 @@
     margin-left: -10px;
   }
 
-  .__abhavis {
-    font-size: 40px;
-  }
-
   .__pritflex {
     justify-content: center;
   }
 
-  .__contp {
+  .__contp, .__abhavis {
     font-size: 30px;
   }
 
@@ -237,6 +249,28 @@
 
   .__servdiv {
     padding: 4rem 0;
+  }
+
+  .__bolprs {
+    font-size: 25px;
+  }
+
+  .__prefct {
+    width: 140px;
+  }
+
+  .__prin-anim {
+    height: 100px;
+    width: 100px;
+  }
+
+  .__prin-animimg {
+    width: 50px;
+  }
+
+  .__prin-animp {
+    font-size: 15px;
+    margin-top: 11px;
   }
 
 
@@ -321,10 +355,6 @@
 
   .__price-img {
     font-size: 50px;
-  }
-
-  .__abhavis {
-    font-size: 40px;
   }
 
   .__locateline-hr {
@@ -506,6 +536,7 @@
 
   .__dbslimg{
     height: 160px;
+    width: 100% !important;
   }
 
   .__bolprs {
@@ -586,17 +617,17 @@
     font-size: 20px;
   }
 
-  #accordion .panel-title a:before, #accordion .panel-title a.collapsed:before {
+  #accordion .panel-title a:before, #accordion .panel-title a.collapsed:before, #accordion1 .panel-title a:before, #accordion1 .panel-title a.collapsed:before {
     font-size: 12px;
     top: 8px;
     right: 1px;
   }
 
-  #accordion .panel-title a.collapsed {
+  #accordion .panel-title a.collapsed, #accordion1 .panel-title a.collapsed {
     font-size: 15px;
   }
 
-  #accordion .panel-title a:after {
+  #accordion .panel-title a:after, #accordion1 .panel-title a:after {
     display: none;
   }
 
@@ -612,6 +643,10 @@
 
   .__servdiv {
    padding: 2rem 0;
+  }
+
+  #accordion5 .panel-title a {
+    font-size: 23px;
   }
 
 
