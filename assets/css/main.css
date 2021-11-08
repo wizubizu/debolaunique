@@ -1734,7 +1734,10 @@ font-size: 18px;
     transform:none;opacity:1
   }
 }
- .rotateIn{-webkit-animation-name:rotateIn;animation-name:rotateIn}
+.rotateIn{
+  -webkit-animation-name:rotateIn;
+  animation-name:rotateIn
+}
 
 
 
